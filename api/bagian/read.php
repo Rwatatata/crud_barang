@@ -15,7 +15,7 @@ $hasil["data"] = array();
 while ($row = mysqli_fetch_assoc($result)){
     $array_berkas = array(
         "barcode" => $row["barcode"],
-        "nama_barang" => $row["nama_barang"]
+        "namabarang" => $row["namabarang"]
     );
     array_push($hasil["data"],$array_berkas);
 }
